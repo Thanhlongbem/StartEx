@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E6E6E6"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/tvNameRepo"
+        tools:text="dasdadas"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="7dp"
+        />
+
+    <TextView
+        android:id="@+id/tvLanguage"
+        tools:text="dasdadas"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameRepo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tvURL"
+        tools:text="dasdadas"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/tvLanguage"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="5dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

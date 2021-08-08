@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#E6E6E6"
+    android:layout_marginTop="10dp"
+    android:padding="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgFollower"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:civ_border_width="1dp"
+        app:civ_border_color="#FF000000"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvFollowerName"
+        tools:text="dasdadas"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/imgFollower"
+        app:layout_constraintBottom_toBottomOf="@+id/imgFollower"
+        app:layout_constraintStart_toEndOf="@+id/imgFollower"
+        android:layout_marginStart="7dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
